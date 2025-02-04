@@ -33,10 +33,11 @@
  .navbar button:hover{
     background-color: #fff4f2;
  }
- .navbar .active{
+ /* .navbar .active{
+    padding: relative;
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
- }
+ } */
  .navbar li{
     cursor: pointer;
  }
@@ -104,7 +105,7 @@
    padding: 8px 25px;
   }
  }
- @media(max-width:1050px){
+ @media(max-width:900px){
    .navbar .logo{
     width: 120px;
    }
@@ -116,16 +117,19 @@
     gap: 20px;
    }
    .navbar-right img{
-     width: 202px;
+     width: 20px;
    }
    .navbar-right-button{
     padding: 7px 20px;
     font-size: 15px;
    }
   }
-  @media(max-width:1050px){
-   .navbar .logo{
-   display: none;
+  @media(max-width:750px){
+    
+    .navbar-menu{
+     display: none;
+    }
+    
    }
-   
-  }
+
+ 
